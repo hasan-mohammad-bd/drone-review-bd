@@ -1,10 +1,15 @@
 import React from 'react';
+import useReview from '../../Hook/useReview';
+import HomeReview from '../HomeReview/HomeReview';
 import './Review.css'
 
 const Review = () => {
+    const [reviews, setReviews] = useReview()
     return (
-        <div>
-            <h2>This is review section</h2>
+        <div className='review-card-all'>
+            {
+                reviews.map(review => <HomeReview review={review} key={review.id}></HomeReview>)
+            }
         </div>
     );
 };

@@ -3,6 +3,7 @@
 .article h1 {
     font-family: 'Anybody', cursive;
     font-size: 4rem;
+    color: rgb(78, 78, 78);
 }
 
 .live-demo-btn{
@@ -19,4 +20,11 @@
 .live-demo-btn:hover{
     background-color: rgb(192, 13, 58);
     color: white
+}
+
+.review-heading{
+    font-family: 'Anybody', cursive;
+    font-size: 2rem;
+    color: rgb(78, 78, 78);
+
 }
