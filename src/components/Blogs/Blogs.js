@@ -4,7 +4,7 @@ import './Blogs.css'
 const Blogs = () => {
     return (
         <div className='text-start container'>
-            <h3 className='py-4'>Questions and Answers</h3>
+            <h3 className='py-4 text-center review-heading'>Questions and Answers</h3>
             <h4>What is Context API?</h4>
             <p><span className='fw-bold'>Answer:</span> To eradicate props-drilling from every level of the app, context api is used which is a React structure, enables sending data from one parent component to any component in the app structure. the sendable data can be any type. it could be function, string, numeric, array, object etc. also context api enable sending multiple data at once</p>
             this createContext() returns a consumer and provider. this Provide context provides state with the children. this provider holds all components. it means it can provide its value to all this holing components. Then going to the components, useContext is used to get the value of the provider context.
