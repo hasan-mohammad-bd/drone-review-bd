@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@900&display=swap');
+
+.article h1 {
+    font-family: 'Anybody', cursive;
+    font-size: 4rem;
+}
+
+.live-demo-btn{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:2px solid rgb(192, 13, 58);
+    background-color: white;
+    color: rgb(192, 13, 58);;
+    font-weight: 600;
+    transition: color 0.3s ease-in;
+}
+
+.live-demo-btn:hover{
+    background-color: rgb(192, 13, 58);
+    color: white
+}
