@@ -21,6 +21,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
+      <p className='py-2 text-center'>&copy; Drone Review BD</p>
     </div>
   );
 }

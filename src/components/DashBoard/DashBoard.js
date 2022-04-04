@@ -1,12 +1,66 @@
-import React from 'react';
-import './DashBoard.css'
+import React, { useEffect, useState } from "react";
+import {
+  CartesianGrid,
+  Legend,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+  dataKey,
+  BarChart,
+  Bar,
+} from "recharts";
+import "./DashBoard.css";
 
 const DashBoard = () => {
-    return (
-        <div>
-            <p>This is Dash board</p>
+  const [data, setData] = useState([]);
+  console.log(data);
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
+
+  return (
+    <div>
+      <h2 className="py-4">Charts</h2>
+      <div className="charts container">
+        <div className="chart1">
+          <h3 className="py-3 text-center">Revenue per month</h3>
+          <LineChart className="mx-auto" width={400} height={300} data={data}>
+            <Line dataKey={"revenue"}></Line>
+            <YAxis></YAxis>
+            <XAxis dataKey={"month"}></XAxis>
+            <Tooltip></Tooltip>
+            <CartesianGrid></CartesianGrid>
+          </LineChart>
         </div>
-    );
+        <div className="chart2">
+        <h3 className="py-3 text-center">Revenue and investment ratio per month</h3>
+          <BarChart
+            className="mx-auto"
+            width={400}
+            height={300}
+            data={data}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+              <XAxis dataKey={"month"}></XAxis>
+              <Bar dataKey="investment" fill="#8884d8" />
+              <Bar dataKey="revenue" fill="#82ca9d" />
+              <Tooltip></Tooltip>
+              <CartesianGrid></CartesianGrid>
+          </BarChart>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default DashBoard;
