@@ -28,7 +28,7 @@ const DashBoard = () => {
       <h2 className="py-4 review-heading">Charts</h2>
       <div className="charts container">
         <div className="chart1 card">
-          <h3 className="py-3 text-center ">Sells per month</h3>
+          <h3 className="py-3 text-center review-heading">Sells per month</h3>
           <LineChart className="mx-auto" width={400} height={300} data={data}>
             <Line dataKey={"sell"}></Line>
             <YAxis></YAxis>
@@ -38,7 +38,7 @@ const DashBoard = () => {
           </LineChart>
         </div>
         <div className="chart2 card mx-2">
-        <h3 className="py-3 text-center">Investment vs revenue</h3>
+        <h3 className="py-3 text-center review-heading">Investment vs revenue</h3>
           <BarChart
             className="mx-auto"
             width={400}
