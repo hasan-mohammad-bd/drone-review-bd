@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
     const [reviews, setReviews] = useReview();
     const navigate = useNavigate();
-    console.log(reviews);
   return (
     <div>
       <div className="text-center text-lg-start my-lg-5 container d-flex flex-column flex-lg-row justify-content-lg-between justify-content-center align-items-center py-5">

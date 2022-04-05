@@ -1,43 +1,43 @@
  [
   {
     "img": "https://i.ibb.co/LtfbCHX/jaycee-mariano-R6w1i8xgmbk-unsplash.jpg",
-    "rating": "https://i.ibb.co/qDjJNQt/rating-4-5.png",
     "name": "Adam",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "a"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "b"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "c"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "d"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2":"e"}],
     "para": "This is one of he smartest drone I ever used, this drone equipped  with every feature I wanted in a drone",
     "id":"1"
   },
   {
     "img": "https://i.ibb.co/mCncZsf/cesar-rincon-XHVp-Wcr5gr-Q-unsplash.jpg",
-    "rating": "https://i.ibb.co/LN0S3Pd/rating-4.png",
     "name": "Hasan",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "f"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "g"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "h"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "i"},{"star":"https://i.ibb.co/517F9tG/star-half.png","id2":"j"}],
     "para": "I Wanted this drone for long time, after waiting for 3 months finally I got this. fully satisfied with that",
     "id": "2"
   },
   {
     "img": "https://i.ibb.co/NpJ1qKP/nils-lindner-w-FKG4b-SOQGg-unsplash.jpg",
-    "rating": "https://i.ibb.co/qDjJNQt/rating-4-5.png",
     "name": "Amad",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "k"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "l"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "m"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "n"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2":"o"}],
     "para": "This DJI drone is my best buddy all time when I travel around the world, I think this the best purchase I ever made",
     "id":"3"
   },
   {
     "img": "https://i.ibb.co/CbJZhq4/patrick-daley-Aj4-De-R0-H6-RQ-unsplash.jpg",
-    "rating": "https://i.ibb.co/LN0S3Pd/rating-4.png",
     "name": "John",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "p"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "q"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "r"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "s"},{"star":"https://i.ibb.co/517F9tG/star-half.png","id2":"t"}],
     "para": "This mavic pro drone if my favorite done of all time, the camera is is good enough to make short flame",
     "id":"4"
   },
   {
     "img": "https://i.ibb.co/Y7ymGv7/christian-buehner-84-E44-Ed-D18o-unsplash.jpg",
-    "rating": "https://i.ibb.co/LN0S3Pd/rating-4.png",
     "name": "Raiyan",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "u"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "v"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "w"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "x"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2":"y"}],
     "para": "This drone flight time has been improved than previous generation, I really impressed with it's flying capacity",
     "id": "5"
   },
   {
     "img": "https://i.ibb.co/5F47DVL/midas-hofstra-tid-SLv-Ua-Ns-unsplash.jpg",
-    "rating": "https://i.ibb.co/qDjJNQt/rating-4-5.png",
     "name": "Jonson",
+    "icon":[{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "a"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "b"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "c"},{"star":"https://i.ibb.co/9VkNQGD/star.png","id2": "d"},{"star":"https://i.ibb.co/517F9tG/star-half.png","id2":"e"}],
     "para": "Wow! I was waiting for this drone long time, It improves my drone footages dramatically, loved this drone",
     "id": "6"
   }

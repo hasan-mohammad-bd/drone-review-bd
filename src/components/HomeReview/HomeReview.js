@@ -1,21 +1,23 @@
 import React from "react";
 import "./HomeReview.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import StarIcon from "../StarIcon/StarIcon";
+
 
 const HomeReview = ({ review }) => {
-  const { img, name, para, rating } = review;
-  console.log(review);
+  const { img, name, para ,icon } = review;
   return (
     <div className="review-card p-3 m-4 card">
       <div className="img-holder3">
         <img className="img-fluid man-img" src={img} alt="" />
       </div>
       <h5 className="py-2">{name}</h5>
-      <div className="img-holder4 mx-auto">
-        <img className="img-fluid star" src={rating} alt="" />
-      </div>
-      <p className="my-2">{para}</p>
+      <div className="d-flex mx-auto">
+    {
+        icon.map(singleIcon => <StarIcon singleIcon={singleIcon} key={singleIcon.id2}></StarIcon>)
+      }
+    </div>
+      <p className="my-2">{para}</p>    
+
     </div>
   );
 };
