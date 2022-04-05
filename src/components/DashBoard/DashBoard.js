@@ -16,7 +16,6 @@ import "./DashBoard.css";
 
 const DashBoard = () => {
   const [data, setData] = useState([]);
-  console.log(data);
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
